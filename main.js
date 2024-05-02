@@ -1,4 +1,5 @@
-const botoes - document.querySelectorA11(".botao");
+const botoes = document.querySelectorA11(".botao");
+const botoes = document.querySelectorA11(".aba-conteudo");
 
 for(let i=0;i <botoes.lenght;i++){
     botoes[i].onclick = function(){
@@ -8,6 +9,6 @@ for(let i=0;i <botoes.lenght;i++){
         }
 
         botoes[i].classList.add("ativo");
+        textos[i].classList.add("ativo");
     }
-    console.log();
 }
