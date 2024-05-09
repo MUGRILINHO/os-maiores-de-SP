@@ -11,7 +11,7 @@
 }
 
 body{
-    background-color: #add8e6;
+    background-color: #fc9797;
     color: var(--texto-fundo);
     font-family: 'Chakra Petch', sans-serif;
 }
@@ -31,11 +31,11 @@ body{
     text-align: center;
     width: 100%;
     font-size: 50px;
-    color: #ff0000 ;
+    color: #d30000 ;
 }
 
 .titulo-principal span{
-    color: #ff0000;
+    color: #5c0c0c;
 }
 
 .botao{
@@ -63,8 +63,8 @@ body{
 }
 
 .ativo{
-    background-color: #8787e9;
-    border-bottom: 7px solid #7be435;
+    background-color: #9a9afd;
+    border-bottom: 6px solid #0926a8;
 }
 
 @media screen and (min-width: 768px) {
@@ -72,10 +72,10 @@ body{
         display: flex;
     }
     .botao:first-child{
-        border-radius: 40px 0 0 20px;
+        border-radius: 40px 0 0 40px;
     }
     .botao:last-child{
-        border-radius: 0 40px 20px 0;
+        border-radius: 0 40px 40px 0;
     }
 
 }
